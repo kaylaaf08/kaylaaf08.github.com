@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+article {
+    width: 700px;
+    margin: auto;
+    background-color: cadetblue;
+    padding-top: 50px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+h1, h2 {
+    color: rgb(155, 15, 43);
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px solid rgb(155, 15, 43);
+}
+section {
+    padding: 20px;
+}
+
+.introduction {
+    padding: 20px;
+    font-size: 1.7em;
+    line-height: 1.7em;
+}
+
+p {
+    font-size: 1em;
+}
+
+p {
+    line-height: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: wheat;
+    background-color: rgb(155, 15, 43);
+}
+

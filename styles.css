@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+    linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #999 78%),
+    linear-gradient(63deg, transparent 34%, #999 38%, rgb(165, 164, 164) 58%, transparent 62%),#444;
+    background-size: 16px 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #888888;
+    background-position: 0 0, 30px 30px;
+    width: 700px;
+    margin: auto;
+    padding-top: 45px;
+    padding: 20px;
+    border: 30px solid #e7bdbd;
+    text-align: center;
+}
+
+h1 {
+    text-align: match-parent;
+    background-color: #e7bdbd;
+    font-size: 2em;
+    padding: 20px;
+    text-shadow: 2px 2px 3px white;
+    box-shadow: 0px 0px 8px 0px white;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    text-align: match-parent;
+    margin: 8px;
+}
+section {
+    text-align: match-parent;
+    background-color: #e7bdbd;
+    padding: 15px;
+    line-height: 25px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 4px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 4px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: #e7bdbd;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+i {
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 599px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        flex-wrap: wrap;
+        text-align: left;
+    } 
+
+
+    body {
+        border: none;
+    }
+
+    h1 {
+        display: flex;
+    }
+
+    h3 {
+        display: flex;
+        margin: 8px;
+    }
+
+    footer {
+        display: none;
+
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    section {
+        flex-direction: column;
+        font-size: 20px;
+        border-style: ridge;
+        border-color: black;
+        margin-bottom: 8px;
+    }
+
+    main {
+        margin: 2%;
+    }
+
+footer {
+    border-style: ridge;
+    border-color: black;
+    margin-bottom: 8px;
+}
+
+}
